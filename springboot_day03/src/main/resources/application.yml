@@ -1,0 +1,19 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /springboot_day03
+    jsp:
+      init-parameters:
+        development: true
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+
+logging:
+  level:
+    root: info
+    com.baizhi.controller: debug
